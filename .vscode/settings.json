@@ -1,0 +1,33 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#62B132",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#91dc47",
+    "titleBar.inactiveForeground": "#ffffff"
+  },
+  "calva.replConnectSequences": [
+    {
+      "name": "portal",
+      "projectType": "deps.edn",
+      "projectRootPath": [
+        "."
+      ],
+      "autoSelectForJackIn": true,
+      "shouldOpenUrl": false,
+      "cljsType": {
+        "dependsOn": "User provided",
+        "isStarted": false,
+        "connectCode": "((requiring-resolve 'portal.api/repl))",
+        "isConnectedRegExp": ":repl"
+      },
+      "extraNReplMiddleware": [
+        "portal.nrepl/middleware"
+      ],
+      "menuSelections": {
+        "cljAliases": [
+          ":cljs"
+        ]
+      }
+    }
+  ]
+}

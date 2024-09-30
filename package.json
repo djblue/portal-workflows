@@ -1,0 +1,40 @@
+{
+  "name": "@djblue/portal-conj",
+  "version": "1.0",
+  "repository": "github:djblue/portal-conj",
+  "dependencies": {
+    "@cortex-js/compute-engine": "^0.12.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@viz-js/viz": "^3.9.0",
+    "anser": "^2.1.1",
+    "complex.js": "^2.1.1",
+    "diff": "^5.2.0",
+    "fraction.js": "^4.2.0",
+    "highlight.js": "^11.3.1",
+    "jsxgraph": "1.5.0",
+    "katex": "^0.16.7",
+    "leva": "^0.9.34",
+    "mafs": "^0.17.0",
+    "marked": "^4.1.0",
+    "mathbox": "^2.3.1",
+    "mathbox-react": "^0.2.2",
+    "mathlive": "^0.86.0",
+    "odex": "3.0.0-rc.4",
+    "papaparse": "^5.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": ">= 0.118.0 || <= 0.150.0",
+    "threestrap": "0.5.1",
+    "vega": "^5.23.0",
+    "vega-embed": "^6.19.1",
+    "vega-lite": "^5.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.2",
+    "nbb": "^1.2.187",
+    "source-map-support": "^0.5.20",
+    "ws": "^8.17.1"
+  }
+}

@@ -1,0 +1,21 @@
+{:paths ["." "src" "resources"]
+ :deps
+ {djblue/portal {:mvn/version "0.58.2"}
+  com.taoensso/timbre {:mvn/version "6.5.0"}
+  org.mentat/emmy-viewers {:mvn/version "0.3.1"}
+  io.github.djblue/tetris
+  {:git/url "https://github.com/djblue/tetris.git"
+   :git/sha "d40ae6b96f918ab7bb7f09ac071f77ca086e8b7f"}}
+ :aliases
+ {:cljs
+  {:extra-deps
+   {org.clojure/clojurescript {:mvn/version "1.11.132"}
+    lambdaisland/deep-diff2   {:mvn/version "2.11.216"}
+    org.babashka/sci          {:mvn/version "0.8.43"}
+    reagent/reagent           {:mvn/version "1.2.0"}
+    io.github.babashka/sci.configs
+    {:git/url "https://github.com/babashka/sci.configs"
+     :git/sha "b87302d5569852ce4410271d089bc4cc3da7050a"}}}
+  :workflows
+  {:main-opts ["-m" "portal.workflows"]}}}
+
