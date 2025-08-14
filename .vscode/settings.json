@@ -1,10 +1,11 @@
 {
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#62B132",
-    "titleBar.activeForeground": "#ffffff",
-    "titleBar.inactiveBackground": "#91dc47",
-    "titleBar.inactiveForeground": "#ffffff"
+    "titleBar.activeBackground": "#0d1521",
+    "titleBar.activeForeground": "#bacbe4",
+    "titleBar.inactiveBackground": "#0d1521",
+    // "titleBar.inactiveForeground": "#bacbe4"
   },
+  // "workbench.editor.showTabs": "single",
   "calva.replConnectSequences": [
     {
       "name": "portal",

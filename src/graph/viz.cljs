@@ -1,5 +1,5 @@
 (ns graph.viz
-  (:require ["@viz-js/viz" :refer [instance]]
+  (:require ["@viz-js/viz/dist/viz.cjs" :refer [instance]]
             ["react" :as react]
             [clojure.walk :as walk]
             [portal.colors :as c]

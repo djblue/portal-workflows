@@ -9,7 +9,10 @@
   io.github.djblue/portal-slides
   {;; :local/root "../portal-slides"
    :git/url "https://github.com/djblue/portal-slides.git"
-   :git/sha "dc437194411b9a20d1128a7d72c8725d653e14e3"}}
+   :git/sha "dc437194411b9a20d1128a7d72c8725d653e14e3"}
+  io.github.djblue/satisfactory-planner
+  {:git/url "https://github.com/djblue/satisfactory-planner.git"
+   :git/sha "50b8971edd164fa49607cebc47eba2d0d1a4123f"}}
  :aliases
  {:cljs
   {:extra-deps
@@ -22,5 +25,11 @@
      :git/sha "b87302d5569852ce4410271d089bc4cc3da7050a"}}}
   :workflows
   {:exec-fn portal-slides.core/open
-   :exec-args {:file "slides.md" :reset-tap-env true}}}}
+   :exec-args {:file "portal-workflows.md"
+               :reset-tap-env true}}
+  :thinking-with-portal
+  {:exec-fn portal-slides.core/open
+   :exec-args {:launcher :vs-code
+               :file "thinking-with-portal.md"
+               :theme :portal.user/surprising-blueberry}}}}
 
