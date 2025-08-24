@@ -273,7 +273,7 @@ Using `portal.nrepl`, we can capture more context:
   - Timing, Stdio, Test assertions and Exceptions
 
 ```clojure
-(reset! portal.workflows/nrepl true)
+(reset! portal-slides.core/nrepl true)
 (require '[portal.api :as p])
 (add-tap #'p/submit)
 (p/open)
@@ -371,7 +371,7 @@ Logs go to bottom Portal instance
 Taps go to top Portal
 
 ```clojure
-(reset! portal.workflows/nrepl true)
+(reset! portal-slides.core/nrepl true)
 (tap> (+ 1 2 3))
 ```
 
@@ -453,8 +453,8 @@ Taps go to top Portal
 # My Current Workflow
 
 ```clojure
-(require '[portal :as p])
-(p/open-taps)
+(require 'portal)
+(portal/open-taps)
 ```
 
 ```clojure
@@ -468,7 +468,7 @@ Taps go to top Portal
 ```
 
 ```clojure
-(portal.workflows/source `p/submit)
+(source portal/submit)
 ```
 
 - Same data models live in db, server and client
