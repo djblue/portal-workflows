@@ -35,7 +35,7 @@
       ::ex-info (ex-info "My message" {:my :data})
       ::uuid (UUID/randomUUID)
       ::date (Date.)
-      ::binary (slurp-bytes (io/resource "screenshot.png"))
+      ;; ::binary (slurp-bytes (io/resource "screenshot.png"))
       ::bigint 42N}
      :cljr
      {::ratio 22/7
